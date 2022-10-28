@@ -1,4 +1,5 @@
 name: Testing Rector
+on: [push]
 jobs:
   symfony:
     name: PHP 8
