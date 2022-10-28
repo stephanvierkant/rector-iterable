@@ -1,0 +1,12 @@
+{
+    "require": {
+        "php": ">=8.1",
+        "rector/rector": "^0.14.6",
+        "doctrine/orm": "2.13.x-dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src"
+        }
+    }
+}
