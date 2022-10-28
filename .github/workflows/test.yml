@@ -26,6 +26,5 @@ jobs:
           composer install --no-progress --prefer-dist --optimize-autoloader --ignore-platform-reqs
 
       - name: Rector
-        if: github.event_name == 'pull_request'
         run: |
-          vendor/bin/rector process
+          vendor/bin/rector process --dry-run
