@@ -1,5 +1,4 @@
 name: Testing Rector
-on: [pull_request]
 jobs:
   symfony:
     name: PHP 8
